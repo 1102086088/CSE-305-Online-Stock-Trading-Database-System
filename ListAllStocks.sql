@@ -1,0 +1,4 @@
+CREATE DEFINER=`zhezhou1`@`%` PROCEDURE `ListAllStocks`()
+BEGIN
+	SELECT * FROM Stock;
+END
